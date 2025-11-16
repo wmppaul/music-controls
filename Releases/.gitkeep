@@ -1,0 +1,3 @@
+# This folder is for local builds only
+# Compiled .app files are not committed to git
+# Use GitHub Releases for distribution
