@@ -37,15 +37,23 @@ struct SettingsView: View {
             Spacer()
 
             // Footer info
-            HStack {
-                Image(systemName: "info.circle")
-                    .foregroundStyle(.secondary)
-                Text("Shortcuts work globally when Music is playing")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+            VStack(spacing: 4) {
+                HStack {
+                    Image(systemName: "info.circle")
+                        .foregroundStyle(.secondary)
+                    Text("Shortcuts work globally when Music is playing")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+
+                    Spacer()
+
+                    Text("Version \(AppVersion.current)")
+                        .font(.caption)
+                        .foregroundStyle(.tertiary)
+                }
             }
         }
         .padding(20)
-        .frame(width: 600, height: 550)
+        .frame(width: 600, height: 650)
     }
 }
