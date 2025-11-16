@@ -4,6 +4,9 @@ A macOS menu bar app that lets you control Apple Music playback with customizabl
 
 ![Menu Bar Icon](https://img.shields.io/badge/macOS-14%2B-blue) ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
 
+<img width="712" height="794" alt="image" src="https://github.com/user-attachments/assets/d668dcd0-ae3f-4264-a029-e3354e2a3076" />
+
+
 ## Features
 
 - **Global Keyboard Shortcuts**: Control playback from any app
